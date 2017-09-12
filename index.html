@@ -2,16 +2,38 @@
 <html>
   <style>
     #maindiv {
-      margin-left: 15px;
+      margin-left:auto;
+      margin-right:auto;
+      margin-top:60px;
+      width:800px;
     }
     
-    #info{
-      float: left;
+    #profile {
+      height: 150px;
     }
 
     #photo{
-      float: right;
+      float:left;
+      width:150px;
+      height:inherit;
     }
+
+    #info{
+      float:right;
+      width:630px;
+      height:inherit;
+      margin-left:20px;
+      text-align:start;
+    }
+
+    h1 {
+      margin:0;
+    }
+
+    div.interval {
+      height: 1px;
+    }
+
   </style>
   <head>
     <meta charset="utf-8">
@@ -19,38 +41,48 @@
   </head> 
   <body>
     <div id="maindiv">
+
       <div id="profile">
+        <div id="photo">
+          <img src="./profile.png" />
+        </div>  
         <div id="info">
           <h1>DongHwa Shin</h1>
           <p>
               Ph.D Candidates<br />
-              Human Computer Interaction Lab, Seoul National University<br />
+              <a href="http://hcil.snu.ac.kr">Human Computer Interaction Lab, Seoul National University</a><br />
               dhshin_at_snu.ac.kr
           </p>
         </div>
-        <div id="photo">
-            <p>Lorem Ipsum</p>
-          </div>  
       </div>
+
+      <div class="interval"></div>
+
       <h3>Education</h3>
       <ul>
         <li>
-          B.S. in Computer Science, <a href="#">Korea Advanced Institute of Science and Technology</a>, (2008 ~ 2013)
+          B.S. in Computer Science, <a href="http://www.kaist.ac.kr">Korea Advanced Institute of Science and Technology</a>, (2008 ~ 2013)
         </li>
-        <li>Ph.D Candidates in Computer Science and Engineering, <a href="#">Seoul National University</a>, (2013 ~ ) </li>
+        <li>Ph.D Candidates in Computer Science and Engineering, <a href="http://www.snu.ac.kr">Seoul National University</a>, (2013 ~ ) </li>
       </ul>
+
+      <div class="interval"></div>
+
       <h3>Research Interest</h3>
       <ul>
         <li>Exploratory Data Analysis</li>
         <li>Visual Analytics</li>
         <li>Progressive Visualization</li>
       </ul>
+
+      <div class="interval"></div>
+
       <h3>Publication</h3>
-      <h4>International</h4>
+      <h4>[International]</h4>
       <ul>
         <li>Sehi L'Yi, Bongkyung Ko, <strong>DongHwa Shin</strong>, Young-Joon Cho, Jaeyong Lee, Bohyoung Kim, and Jinwook Seo, XCluSim: A Visual Analytics Tool for Interactively Comparing Multiple Clustering Results of Bioinformatics Data, BMC Bioinformatics, 2015; 16 Suppl 11:S5. also presented at BioVis 2015, 5th Symposium on Biological Data Visualization, July 10-11 in Dublin, Ireland.</li>
       </ul>
-      <h4>Domestic</h4>
+      <h4>[Domestic]</h4>
       <ul>
           <li><strong>DongHwa Shin</strong>, Sehi L'Yi, and Jinwook Seo, A Visual Analytics System for Exploring Data Space of Multidimensional Data Using Cognostics, 2017 한국컴퓨터종합학술대회, 2017</li>
           <li><strong>DongHwa Shin</strong>, Sehi L'Yi, Hyunjoo Song, and Jinwook Seo, A Visual Exploratory Data Analytics Framework for Combined-Cognostics of Multidimensional Data, 한국정보과학회 2016년 동계학술대회, 2016</li>
@@ -58,6 +90,9 @@
           <li><strong>DongHwa Shin</strong>, Sehi L'Yi, and Jinwook Seo, Visualizing Cluster Hierarchy Using Hierarchy Generation Framework, 한국정보과학회 2014년 동계학술대회, 2014</li>
           <li>GuHyun Han, Young-Ho Kim, <strong>DongHwa Shin</strong>, Young Jo Lee, and Jinwook Seo, Design and Development of Visual Analytic Tools in SRC-STAT, HCI Korea, 2014</li>
       </ul>
+      
+      <div class="interval"></div>
+
       <h3>Service & Work Experience</h3>
       <ul>
           <li>Teaching Assistant, Information Visualization and Visual Analytics, Seoul National University, 2017</li>
@@ -67,6 +102,10 @@
           <li>Teaching Assistant, Programming Practice (C Language), Seoul National University, 2013</li>
           <li>Undergraduate Intern, Programming Language Research Group, 09/2012 ~ 12/2012</li>
       </ul>
+
+      <div class="interval"></div>
+
+      <h3>Project</h3>
     </div>
   </body>
 </html>
