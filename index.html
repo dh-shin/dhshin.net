@@ -34,11 +34,39 @@
       height: 1px;
     }
 
+    body {
+      font-family: 'Roboto', 'Nanum Gothic', sans-serif;
+    }
+
+    strong {
+      font-family: 'Roboto Condensed', sans-serif;
+      font-weight: 700;
+      font-style: italic;
+    }
+
+    li {
+      line-height: 1.6;
+    }
+
+    .pub_list li {
+      margin-top: 15px;
+    }
+
+    .pub_list span {
+      font-size: 14px;
+    }
+    
+    .work_list li {
+      margin-top: 3px;
+    }
+
   </style>
   <head>
     <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/earlyaccess/nanumgothic.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700i|Roboto:400,700" rel="stylesheet">
     <title>DongHwa Shin</title>
-  </head> 
+  </head>
   <body>
     <div id="maindiv">
 
@@ -59,7 +87,7 @@
       <div class="interval"></div>
 
       <h3>Education</h3>
-      <ul>
+      <ul class="dh_list">
         <li>
           B.S. in Computer Science, <a href="http://www.kaist.ac.kr">Korea Advanced Institute of Science and Technology (KAIST)</a>, (2008 ~ 2013)
         </li>
@@ -69,7 +97,7 @@
       <div class="interval"></div>
 
       <h3>Research Interest</h3>
-      <ul>
+      <ul class="dh_list">
         <li>Exploratory Data Analysis</li>
         <li>Visual Analytics</li>
         <li>Progressive Visualization</li>
@@ -79,31 +107,64 @@
 
       <h3>Publication</h3>
       <h4>[International]</h4>
-      <ul>
-        <li>Sehi L'Yi, Bongkyung Ko, <strong>DongHwa Shin</strong>, Young-Joon Cho, Jaeyong Lee, Bohyoung Kim, and Jinwook Seo, XCluSim: A Visual Analytics Tool for Interactively Comparing Multiple Clustering Results of Bioinformatics Data, BMC Bioinformatics, 2015; 16 Suppl 11:S5. also presented at BioVis 2015, 5th Symposium on Biological Data Visualization, July 10-11 in Dublin, Ireland.</li>
+      <ul class="pub_list">
+        <li>
+          <strong>XCluSim: A Visual Analytics Tool for Interactively Comparing Multiple Clustering Results of Bioinformatics Data</strong> <br />
+          Sehi L'Yi, Bongkyung Ko, <strong>DongHwa Shin</strong>, Young-Joon Cho, Jaeyong Lee, Bohyoung Kim, and Jinwook Seo <br />
+          BMC Bioinformatics, 2015; 16 Suppl 11:S5. also presented at BioVis 2015, 5th Symposium on Biological Data Visualization, July 10-11 in Dublin, Ireland.
+        </li>
       </ul>
       <h4>[Domestic]</h4>
-      <ul>
-          <li><strong>DongHwa Shin</strong>, Sehi L'Yi, and Jinwook Seo, Progressive Visual Analytics using Scagnostics and Automatic Partitioning Variables Selection Method, 2017 한국소프트웨어종합학술대회, 2017</li>
-          <li>[Poster] <strong>DongHwa Shin</strong>, Sehi L'Yi, and Jinwook Seo, A Visual Analytics System for Exploring Data Space of Multidimensional Data Using Cognostics, 2017 한국컴퓨터종합학술대회, 2017</li>
-          <li>[Poster] <strong>DongHwa Shin</strong>, Sehi L'Yi, Hyunjoo Song, and Jinwook Seo, A Visual Exploratory Data Analytics Framework for Combined-Cognostics of Multidimensional Data, 한국정보과학회 2016년 동계학술대회, 2016</li>
-          <li><strong>DongHwa Shin</strong>, Sehi L'Yi, and Jinwook Seo, Visualizing Cluster Hierarchy Using Hierarchy Generation Framework, KIISE Transactions on Computing Practices, 2015, 21(6), 436-441.</li>
-          <li>[Poster] <strong>DongHwa Shin</strong>, Sehi L'Yi, and Jinwook Seo, Visualizing Cluster Hierarchy Using Hierarchy Generation Framework, 한국정보과학회 2014년 동계학술대회, 2014</li>
-          <li>GuHyun Han, Young-Ho Kim, <strong>DongHwa Shin</strong>, Young Jo Lee, and Jinwook Seo, Design and Development of Visual Analytic Tools in SRC-STAT, HCI Korea, 2014</li>
+      <ul class="pub_list">
+          <li>
+            <span>[최우수논문상]</span> <br />
+            <strong>Progressive Visual Analytics using Scagnostics and Automatic Partitioning Variables Selection Method</strong> <br />
+            <strong>DongHwa Shin</strong>, Sehi L'Yi, and Jinwook Seo <br />
+            Korea Software Congress 2017
+          </li>
+          <li>
+            <span>[Poster][우수발표논문상]</span> <br />
+            <strong>A Visual Analytics System for Exploring Data Space of Multidimensional Data Using Cognostics</strong> <br />
+            <strong>DongHwa Shin</strong>, Sehi L'Yi, and Jinwook Seo <br />
+            Korea Computer Congress 2017
+          </li>
+          <li>
+            <span>[Poster]</span> <br />
+            <strong>A Visual Exploratory Data Analytics Framework for Combined-Cognostics of Multidimensional Data</strong> <br />
+            <strong>DongHwa Shin</strong>, Sehi L'Yi, Hyunjoo Song, and Jinwook Seo <br />
+            한국정보과학회 2016년 동계학술대회
+          </li>
+          <li>
+            <span>[우수논문상]</span> <br />
+            <strong>Visualizing Cluster Hierarchy Using Hierarchy Generation Framework</strong> <br />
+            <strong>DongHwa Shin</strong>, Sehi L'Yi, and Jinwook Seo <br />
+            KIISE Transactions on Computing Practices, 2015, 21(6), 436-441.
+          </li>
+          <li>
+            <span>[Poster][우수발표논문상]</span> <br />
+            <strong>Visualizing Cluster Hierarchy Using Hierarchy Generation Framework</strong> <br />
+            <strong>DongHwa Shin</strong>, Sehi L'Yi, and Jinwook Seo <br />
+            한국정보과학회 2014년 동계학술대회
+          </li>
+          <li>
+            <strong>Design and Development of Visual Analytic Tools in SRC-STAT</strong> <br />
+            GuHyun Han, Young-Ho Kim, <strong>DongHwa Shin</strong>, Young Jo Lee, and Jinwook Seo <br />
+            HCI Korea 2014
+          </li>
       </ul>
       
       <div class="interval"></div>
 
       <h3>Service & Work Experience</h3>
-      <ul>
-          <li>Teaching Assistant, Capstone Project, SNU Big Data Institute, 2017</li>
-          <li>Teaching Assistant, Information Visualization and HCI, SNU Big Data Institute, 2017</li>
-          <li>Teaching Assistant, Information Visualization and Visual Analytics, Seoul National University, 2017</li>
-          <li>Student Volunteer, IEEE PacificVis 2017</li>
-          <li>Teaching Assistant, Advanced Human-Computer Interaction, Seoul National University, 2016</li>
-          <li>Teaching Assistant, Programming Practice (C Language), Seoul National University, 2014</li>
-          <li>Teaching Assistant, Programming Practice (C Language), Seoul National University, 2013</li>
-          <li>Undergraduate Intern, Programming Language Research Group, KAIST, 09/2012 ~ 12/2012</li>
+      <ul class="work_list">
+          <li><strong>Teaching Assistant</strong>, Capstone Project, SNU Big Data Institute, 2017</li>
+          <li><strong>Teaching Assistant</strong>, Information Visualization and HCI, SNU Big Data Institute, 2017</li>
+          <li><strong>Teaching Assistant</strong>, Information Visualization and Visual Analytics, Seoul National University, 2017</li>
+          <li><strong>Student Volunteer</strong>, IEEE PacificVis 2017</li>
+          <li><strong>Teaching Assistant</strong>, Advanced Human-Computer Interaction, Seoul National University, 2016</li>
+          <li><strong>Teaching Assistant</strong>, Programming Practice (C Language), Seoul National University, 2014</li>
+          <li><strong>Teaching Assistant</strong>, Programming Practice (C Language), Seoul National University, 2013</li>
+          <li><strong>Undergraduate Intern</strong>, Programming Language Research Group, KAIST, 09/2012 ~ 12/2012</li>
       </ul>
 
       <div class="interval"></div>
